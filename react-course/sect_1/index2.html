@@ -1,0 +1,62 @@
+<!-- INSERT BOILER PLATE CODE -->
+// **CHALLENGE**
+<!DOCTYPE html>
+<html lang="en">
+// anything in head sect is metadata that browser uses to interpret code in body sect
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- REACT LIBRARY -->
+    <script src="https://unpkg.com/react@15.5.4/dist/react.js"></script>
+    <!-- REACT DOM LIBRARY -->
+    <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.js"></script>
+    <!-- BABEL LIBRARY -->
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+    <title>Let's React!</title>
+</head>
+<body>
+    <!-- DESIGNATED LOCATION TO INSERT REACT CONTENT -->
+    // any react content will be rendered within the div tags with the id app
+    <div id="app">React has not rendered yet</div>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/babel">
+        // ASSIGNMENT - CHALLENGE
+            // RENDER A PARAGRAPH TAG WITH THE CONTENT "I AM A PARAGRAPH!"
+            // RENDER AN ANCHOR TAG THAT LINKS TO GOOGLE WITH THE CONTENT "VISIT GOOGLE"
+           // RENDER AN UNORDERED LIST WITH THREE LIST ITEMS YOU NEED TO DO TODAY(ul tag) (li*3 + tab gives 3 lists)
+            
+        //    ReactDOM.render(
+        //     // REACT WHAT - JSX
+        //    <p>I am a paragraph!</p>,
+        //    // REACT WHERE - LOCATION IN THE DOM
+        //    document.getElementById("app")
+        //    ) 
+           
+        // ReactDOM.render(
+        // <a href="https://google.com">Visit Google</a>,
+        // document.getElementById("app")
+        // );
+
+        ReactDOM.render(
+            <ul>
+                <li>Get up</li>
+                <li>Work</li>
+                <li>Go to sleep</li>
+            </ul> ,
+            document.getElementById("app")   
+        );
+
+    // RENDER REACT TO THE DOM - WILL ACCEPT TWO ARGS (REACT WHAT, REACT WHERE PLACED IN DOM)
+        // ReactDOM.render(
+        //     // REACT WHAT - JSX
+        //     <h1>Hello World</h1>,
+        //     // REACT WHERE - DFIV WITH ID OF "APP"
+        //     document.getElementById("app")
+        // )
+
+    </script>
+    
+</body>
+</html>
